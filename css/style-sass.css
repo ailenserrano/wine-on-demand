@@ -1,0 +1,513 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #8051a8;
+  background-size: 1300px;
+  background-position-y: 350px;
+}
+
+.header .header__logo {
+  height: 90px;
+  width: auto;
+  margin: 8px;
+}
+
+.header .header__menu__item {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin-right: 15px;
+  background: rgba(163, 148, 148, 0.4);
+  border-radius: 6px;
+}
+
+.header .header__menu__item:hover {
+  background: #BD465F;
+}
+
+.header .dropdown-menu {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.footer {
+  background-color: #D5B9B2;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__copyright h6 {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.footer .footer__socialMedia {
+  padding-right: 10px;
+}
+
+.footer .footer__socialMedia a i {
+  padding-left: 10px;
+  color: black;
+}
+
+.titulos {
+  font-family: "Nixie One", cursive;
+  color: #BD465F;
+  font-size: 25pt;
+  text-align: center;
+  padding: 30px 10px 50px 10px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  line-height: 33px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn {
+  margin: 30px 20px 50px 20px;
+  background: rgba(233, 140, 168, 0.2);
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background: #BD465F;
+}
+
+.buttonsHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.container__info .container__info__text {
+  padding: 0px 100px 30px 100px;
+  text-align: center;
+}
+
+.container__info .container__info__text p {
+  margin-bottom: 20px;
+}
+
+.container__info .container__pasos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container__info .container__pasos .container__pasos__seleccionar, .container__info .container__pasos .container__pasos__subscribir, .container__info .container__pasos .container__pasos__recibir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__info .container__pasos .container__pasos__seleccionar p, .container__info .container__pasos .container__pasos__subscribir p, .container__info .container__pasos .container__pasos__recibir p {
+  padding-left: 20px;
+}
+
+.container__info .buttonsInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#carouselExampleIndicators {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* métodos de pago */
+.pago__methods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 50px 100px 50px;
+}
+
+.pago__methods .pago__methods__img {
+  display: inline-block;
+}
+
+.selecciones p {
+  margin-bottom: 50px;
+}
+
+div .col-sm-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+div .col-sm-6 .card-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 25pt;
+  background-color: #ce72a5;
+  text-align: center;
+  border-radius: 10px;
+}
+
+div .col-sm-6 .precio {
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  background-color: #33c533;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+div .col-sm-6 .card-body.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div .col-sm-6 .card-body.button button {
+  margin: 5px;
+}
+
+.container__more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 80px;
+}
+
+.container__more .container__more__one, .container__more .container__more__two, .container__more .container__more__three, .container__more .container__more__four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.container__more .container__more__one p, .container__more .container__more__two p, .container__more .container__more__three p, .container__more .container__more__four p {
+  margin-left: 15px;
+}
+
+.containerButtonsSelecciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscripcion, .contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.subscripcion .form, .contacto .form {
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.subscripcion .form .form__content, .contacto .form .form__content {
+  border-radius: 20px;
+  border: solid black 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  padding: 0px 20px 0px 20px;
+}
+
+.subscripcion .form .form__content .form__content__name, .contacto .form .form__content .form__content__name {
+  display: inline-block;
+  text-align: center;
+  font-size: 16pt;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.subscripcion .form .form__content div, .contacto .form .form__content div {
+  margin-bottom: 30px;
+  font-size: 13pt;
+  font-weight: 600;
+}
+
+.subscripcion .form .form__content div .form__content__label, .contacto .form .form__content div .form__content__label {
+  margin-right: 10px;
+}
+
+.subscripcion .form .form__content div .form__content__input, .contacto .form .form__content div .form__content__input {
+  border-radius: 12px;
+  width: 250px;
+  height: 30px;
+}
+
+.subscripcion .form .form__content div .form__content__input:focus, .contacto .form .form__content div .form__content__input:focus {
+  color: cornflowerblue;
+}
+
+.subscripcion .form .form__content div .form__content__text, .contacto .form .form__content div .form__content__text {
+  border-radius: 12px;
+  width: 300px;
+}
+
+.subscripcion .form .form__content div .form__content__select, .contacto .form .form__content div .form__content__select {
+  border-radius: 12px;
+  width: 150px;
+  height: 25px;
+}
+
+.subscripcion .form .form__content div .checkbox, .contacto .form .form__content div .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.subscripcion .form .form__content div .checkbox div, .contacto .form .form__content div .checkbox div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subscripcion .form .form__content div .checkbox div .checkbox__input, .contacto .form .form__content div .checkbox div .checkbox__input {
+  width: 20px;
+  height: 20px;
+}
+
+.subscripcion .form .form__content div .checkbox div .checkbox__label, .contacto .form .form__content div .checkbox div .checkbox__label {
+  margin-left: 10px;
+}
+
+.contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contacto .contacto__datos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contacto .contacto__datos .contacto__datos__phone, .contacto .contacto__datos .contacto__datos__email, .contacto .contacto__datos .contacto__datos__address {
+  width: 300px;
+}
+
+.contacto__datos__map {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 100px;
+}
+
+.col-1 {
+  width: 25%;
+  margin: 20px 0px 50px 0px;
+}
+
+.col-1 p {
+  font-size: 15px;
+}
+
+.col-2 {
+  width: 25%;
+  margin: 20px 0px 50px 0px;
+}
+
+.col-2 p {
+  font-size: 15px;
+}
+
+.col-3 {
+  width: 25%;
+  margin: 20px 0px 50px 0px;
+}
+
+.col-3 p {
+  font-size: 15px;
+}
+
+.col-4 {
+  width: 25%;
+  margin: 20px 0px 50px 0px;
+}
+
+.col-4 p {
+  font-size: 15px;
+}
+
+.color-pink {
+  background-color: pink;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-purple {
+  background-color: purple;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+/*# sourceMappingURL=style-sass.css.map */

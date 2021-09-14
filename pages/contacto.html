@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Para contactarte con nosotros podés hacerlo a través del formulario o medios de contacto.">
+
+    <meta name="keywords" content="vinos, cata, degustación, selección, subscripción, contacto, formulario, teléfono, email, correo, dirección">
+
+    <title>Wine on demand | Contacto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nixie+One&family=Raleway:wght@200&family=WindSong&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../css/style-sass.css">
+
+  </head>
+  <body>
+
+    <!-- header -->
+    <header class="container-fluid header">
+      <nav class="navbar navbar-expand-lg navbar-dark header__menu">
+        <div class="container-fluid">
+
+          <!-- logo -->
+          <a class="navbar-brand" href="../index.html"
+            ><img class="header__logo" src="../images/logo.png" alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- botones de la barra de navegación -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item header__menu__item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown header__menu__item">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Cómo funciona
+                </a>
+                <ul
+                  class="dropdown-menu header__menu__dropdown"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+
+                <!-- dropdown menu -->
+                  <li>
+                    <a
+                      class="dropdown-item header__dropdown__item"
+                      href="../pages/como funciona.html#info"
+                      >Información</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item header__dropdown__item"
+                      href="../pages/como funciona.html#pago"
+                      >Métodos de pago</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item header__menu__item">
+                <a class="nav-link active" href="../pages/selecciones.html"
+                  >Selecciones</a
+                >
+              </li>
+              <li class="nav-item header__menu__item">
+                <a class="nav-link active" href="../pages/vinos.html"
+                  >Vinos</a
+                >
+              </li>
+              <li class="nav-item header__menu__item">
+                <a class="nav-link active" href="../pages/subscribirme.html"
+                  >Subscribirme</a
+                >
+              </li>
+              <li class="nav-item header__menu__item">
+                <a class="nav-link active" href="../pages/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- formulario de contacto -->
+    <section class="contacto container">
+      <h1 class="titulos">Contacto</h1>
+
+      <p>Si tenés alguna duda o inconveniente, podés comunicarte con nosotros a través del siguiente formulario, o a través de los métodos de contacto que podés encontrar más abajo.</p>
+
+      <div class="form">
+        <form action="respuestas.html" method="GET">
+          <fieldset class="form__content">
+            <legend class="form__content__name">Formulario de contacto</legend>
+
+            <div>
+              <label class="form__content__label" for="name">Nombre</label>
+              <input class="form__content__input" type="" id="name" placeholder="Nombre" />
+            </div>
+
+            <div>
+              <label class="form__content__label" for="name">Apellido</label>
+              <input class="form__content__input" type="" id="surname" placeholder="Apellido" />
+            </div>
+
+            <div>
+              <label class="form__content__label" for="email">Correo electrónico</label>
+              <input class="form__content__input" type="email" id="email" placeholder="correo@mail.com" />
+            </div>
+
+            <div>
+              <textarea class="form__content__text" name="Consulta" id="consulta" cols="30" rows="5">
+Consulta</textarea
+              >
+            </div>
+
+            <div class="checkbox">
+              <div>
+                <input class="checkbox__input" type="checkbox" name="newsletter" /><label class="checkbox__label"
+                  for="newsletter"
+                  >Acepto los términos y condiciones de privacidad</label
+                >
+              </div>
+
+              <div>
+                <input class="checkbox__input" type="checkbox" name="newsletter" /><label class="checkbox__label"
+                  for="newsletter"
+                  >Acepto recibir el newsletter</label
+                >
+              </div>
+            </div>
+
+            <div>
+              <button class="btn btn-outline-danger buttonForm" type="submit">
+                Enviar
+              </button>
+
+              <button class="btn btn-outline-danger buttonForm" type="reset">
+                Reestablecer
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <!-- información de contacto -->
+    <section class="contacto container">
+      <h2 class="titulos">Comunicate</h2>
+
+      <div class="contacto__datos container">
+        <div class="contacto__datos__phone">
+          <img
+            src="../icons/phone-call.png"
+            alt="teléfono"
+            width="50px"
+            height="auto"
+          />
+          <p>555-555</p>
+        </div>
+
+        <div class="contacto__datos__email container">
+          <img
+            src="../icons/email.png"
+            alt="correo electrónico"
+            width="50px"
+            height="auto"
+          />
+          <p>info@wineondemand.com</p>
+        </div>
+
+        <div class="contacto__datos__address container">
+          <img
+            src="../icons/map.png"
+            alt="dirección"
+            width="50px"
+            height="auto"
+          />
+          <p>Calle 111, CABA, Argentina</p>
+        </div>
+      </div>
+
+      <div class="contacto__datos__map container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8885024771944!2d-58.39615078477105!3d-34.58168768046519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb06d18d5225%3A0x3652591aa77e712f!2sFloralis%20Gen%C3%A9rica!5e0!3m2!1sen!2sar!4v1627870163965!5m2!1sen!2sar"
+          width="400"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid footer">
+      <div class="footer__copyright">
+        <h6>Wine on demand &copy 2021 by Ailén Serrano Iglesias</h6>
+      </div>
+
+      <div class="footer__socialMedia">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+.subscripcion , .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    .form {
+        border-radius: 10px;
+        font-family: $font-general; 
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        text-align: center;
+        
+
+        .form__content {
+            border-radius: 20px;
+            border: solid black 1px;
+            background-color: $bg-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 50px;
+            padding: 0px 20px 0px 20px;
+
+            .form__content__name {
+                display: inline-block;
+                text-align: center;
+                font-size: 16pt;
+                font-weight: 600;
+                margin-bottom: 20px;
+                padding: 8px;
+            }
+
+            div {
+                margin-bottom: 30px;
+                font-size: 13pt;
+                font-weight: 600;
+
+                .form__content__label {
+                    margin-right: 10px;
+                }
+    
+                .form__content__input {
+                    border-radius: 12px;
+                    width: 250px;
+                    height: 30px;
+    
+                    &:focus {
+                        color: cornflowerblue;
+                    }
+                }
+    
+                .form__content__text {
+                    border-radius: 12px;
+                    width: 300px;
+                }
+    
+                .form__content__select {
+                    border-radius: 12px;
+                    width: 150px;
+                    height: 25px;
+                }
+    
+                .checkbox {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    div {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+
+                        .checkbox__input {
+                            width: 20px;
+                            height: 20px;
+                        }
+
+                        .checkbox__label {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

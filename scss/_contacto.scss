@@ -1,0 +1,23 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .contacto__datos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin-bottom: 50px;
+
+        .contacto__datos__phone , .contacto__datos__email , .contacto__datos__address {
+            width: 300px;
+        }
+    }
+}
+
+.contacto__datos__map {
+    align-self: center;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,57 @@
+.container__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+
+    .container__info__text {
+        padding: 0px 100px 30px 100px;
+        text-align: center;
+
+        p {
+            margin-bottom: 20px;
+        }
+    }
+
+    .container__pasos {
+        display: flex;
+        flex-direction: column;
+    
+        .container__pasos__seleccionar , .container__pasos__subscribir , .container__pasos__recibir {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+            p {
+                padding-left: 20px;
+            }
+        }
+    }
+
+    .buttonsInfo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#carouselExampleIndicators {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* métodos de pago */
+
+.pago__methods {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 50px 100px 50px;
+
+    .pago__methods__img {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,28 @@
+.header {
+    background-color: #8051a8;
+    background-size: 1300px;
+    background-position-y: 350px;
+
+    .header__logo {
+        height: 90px;
+        width: auto;
+        margin: 8px;
+    }
+
+    .header__menu__item {
+        font-family: $font-general;
+        font-weight: 500;
+        margin-right: 15px;
+        background: $menu-bg-color;
+        border-radius: 6px;
+    }
+    
+    .header__menu__item:hover {
+        background:$bg-hover-color;
+    }
+    
+    .dropdown-menu {
+        background: $submenu-bg-hover;
+        border-radius: 6px;
+    }
+}

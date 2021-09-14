@@ -1,0 +1,22 @@
+.footer {
+    background-color: $footer-bg-color;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer__copyright h6 {
+        font-weight: 300;
+        font-size: $font-gral-size - 8px;
+    }
+
+    .footer__socialMedia {
+        padding-right: 10px;
+
+        a i {
+            padding-left: 10px;
+            color: black;
+        }    
+    }
+}

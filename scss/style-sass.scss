@@ -1,0 +1,34 @@
+@import 'variables';
+
+* {
+    @include reset;
+}
+
+@import 'header';
+
+@import 'footer';
+
+
+.titulos {
+    @include title;
+} 
+
+p {
+    @include text-general;
+}
+
+@import 'buttons';
+
+@import 'home';
+
+@import 'como funciona';
+
+@import 'selecciones';
+
+@import 'formularios';
+
+@import 'contacto';
+
+@import 'vinos';
+
+@import '404'

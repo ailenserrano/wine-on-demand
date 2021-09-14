@@ -1,0 +1,60 @@
+.selecciones p {
+    margin-bottom: 50px;
+}
+
+div .col-sm-6 {
+    display: flex;
+    justify-content: space-around;
+
+    .card-title {
+        font-family: $font-general;
+        font-weight: 800;
+        font-size: $title-font-size;
+        background-color: $selec-titulos-bg;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .precio {
+        font-weight: 800;
+        font-family: $font-general;
+        background-color:$selec-precios-bg;
+        border-radius: 10px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .card-body.button {
+        display: flex;
+        justify-content: center;
+
+        button {
+            margin: 5px;
+        }
+    }
+}
+
+.container__more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+
+    .container__more__one , .container__more__two , .container__more__three , .container__more__four {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        margin: 10px 0px 0px 0px;
+
+        p {
+            margin-left: 15px;
+        }
+    }
+}
+
+.containerButtonsSelecciones {
+    display: flex;
+    justify-content: center;
+}

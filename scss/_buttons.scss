@@ -1,0 +1,17 @@
+.btn {
+    margin: 30px 20px 50px 20px;
+    background: $button-bg-color;
+    border-radius: 6px;
+    padding: 3px 10px;
+    font-family: $font-general;
+    font-size: $font-gral-size;
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+          
+    &:hover {
+        background: $bg-hover-color;
+    }
+}

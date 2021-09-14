@@ -1,0 +1,57 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+$font-general: 'Raleway', sans-serif;
+
+$font-gral-height: 33px;
+
+$font-gral-size: 20px;
+
+$menu-bg-color: rgba(163, 148, 148, 0.4);
+
+$bg-hover-color: #BD465F;
+
+$submenu-bg-hover: rgba(0, 0, 0, 0.200);
+
+$footer-bg-color: #D5B9B2;
+
+$title-font: 'Nixie One', cursive;
+
+$title-color: #BD465F;
+
+$title-font-size: 25pt;
+
+$title-font-weight: 700;
+
+$button-bg-color: rgba(233, 140, 168, 0.2);
+
+$bg-color: rgba(0, 0, 0, 0.200);
+
+$selec-titulos-bg: #ce72a5;
+
+$selec-precios-bg: rgb(51, 197, 51);
+
+@mixin text-general {
+    font-family: $font-general; 
+    line-height: $font-gral-height;  
+    font-size: $font-gral-size; 
+    text-align: center;
+}
+
+
+@mixin title {
+    font-family: $title-font;
+    color: $title-color;
+    font-size: 25pt;
+    text-align: center;
+    padding: 30px 10px 50px 10px;
+    font-weight: 700;
+}
+
+
+
