@@ -75,38 +75,13 @@
                   >Home</a
                 >
               </li>
-              <li class="nav-item dropdown header__menu__item">
+              <li class="nav-item header__menu__item">
                 <a
-                  class="nav-link active dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/como funciona.html"
+                  >Cómo funciona</a
                 >
-                  Cómo funciona
-                </a>
-                <ul
-                  class="dropdown-menu header__menu__dropdown"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-
-                <!-- dropdown menu -->
-                  <li>
-                    <a
-                      class="dropdown-item header__dropdown__item"
-                      href="../pages/como funciona.html#info"
-                      >Información</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item header__dropdown__item"
-                      href="../pages/como funciona.html#pago"
-                      >Métodos de pago</a
-                    >
-                  </li>
-                </ul>
               </li>
               <li class="nav-item header__menu__item">
                 <a class="nav-link active" href="../pages/selecciones.html"
@@ -142,87 +117,64 @@
         En el área "Detalles" incluí si querés solo vino tinto, blanco, o ambos.
       </p>
 
-      <div class="form">
-        <form action="respuestas.html" method="GET">
-          <fieldset class="form__content">
-            <legend class="form__content__name">Formulario de subscripción</legend>
-
-            <div>
-              <label class="form__content__label" for="name">Nombre</label>
-              <input class="form__content__input" type="" id="name" placeholder="Nombre" />
+      <div class="card suscripcion">
+        <h5 class="text-center mb-4">Formulario de suscripción</h5>
+        <form class="form-card container">
+            <div class="row justify-content-around text-left">
+                <div class="col-sm-5 flex-column d-flex"> <label class="form-control-label px-3">Nombre<span class="text-danger"> *</span></label> <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"> </div>
             </div>
-
-            <div>
-              <label class="form__content__label" for="name">Apellido</label>
-              <input class="form__content__input" type="" id="surname" placeholder="Apellido" />
+            <div class="row justify-content-around text-left">
+                <div class="col-sm-5 flex-column d-flex"> <label class="form-control-label px-3">Apellido<span class="text-danger"> *</span></label> <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido"> </div>
             </div>
-
-            <div>
-              <label class="form__content__label" for="email">Correo electrónico</label>
-              <input class="form__content__input" type="email" id="email" placeholder="correo@mail.com" />
+            <div class="row justify-content-around text-left">
+                <div class="col-sm-5 flex-column d-flex"> <label class="form-control-label px-3">Correo electrónico<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder="Ingresa tu correo electrónico"> </div>
             </div>
-
-            <div>
-              <label class="form__content__label" for="birthday">Fecha de nacimiento:</label>
-              <input class="form__content__input" type="date" id="birthday" name="birthday" />
+            <div class="row justify-content-around text-left">    
+                <div class="col-sm-5 flex-column d-flex"> <label class="form-control-label px-3">Número celular<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder="Ingresa tu número celular"> </div>
             </div>
-
-            <div>
-              <label class="form__content__label" for="subscripción">Subscripción</label>
-              <select name="" id="subcripción">
-                <option value="">Platinum</option>
-                <option value="">Gold</option>
-              </select>
+            <div class="row justify-content-around text-left">
+                <div class="col-sm-5 flex-column d-flex"> <label class="form-control-label px-3">Fecha de nacimiento<span class="text-danger"> *</span></label> <input type="date" id="birthday" name="birthday"> </div>
             </div>
-
-            <div>
-              <textarea class="form__content__text"
-                name="Consulta"
-                id="consulta"
-                cols="30"
-                rows="5"
-                placeholder="Detalles (tinto, blanco, mix)"
-              ></textarea>
+            <div class="row justify-content-around text-left">
+                <div class="col-sm-5 flex-column d-flex"> <label for="form_seleccion">Elige tu Selección de vinos<span class="text-danger"> *</span></label> <select id="form_seleccion" name="seleccion" class="form-control">
+                  <option value="" selected disabled>Selección</option>
+                  <option>Gold</option>
+                  <option>Platinum</option>
+                </select> </div>
             </div>
-
-            <div>
-              <label class="form__content__label" for="subscripción">Método de pago</label>
-              <select class="form__content__select" name="" id="subcripción">
-                <option value="">Visa</option>
-                <option value="">Transferencia</option>
-                <option value="">MercadoPago</option>
-                <option value="">PayPal</option>
-              </select>
+            <div class="row justify-content-around text-left">
+              <div class="col-sm-5 flex-column d-flex"> <label class="form-control-label px-3">Detalles</label> <input type="textarea" id="detalles" name="detalles" class="detalles"> </div>
             </div>
-
-            <div class="checkbox">
-              <div>
-                <input class="checkbox__input" type="checkbox" name="newsletter" /><label class="checkbox__label"
-                  for="newsletter"
-                  >Acepto los términos y condiciones de privacidad</label
-                >
-              </div>
-
-              <div>
-                <input class="checkbox__input" type="checkbox" name="newsletter" /><label class="checkbox__label"
-                  for="newsletter"
-                  >Acepto recibir el newsletter</label
-                >
-              </div>
+            <div class="row justify-content-around text-left">  
+              <div class="col-sm-5 flex-column d-flex"> <label for="form_seleccion">Método de pago<span class="text-danger"> *</span></label> <select id="form_metodo_pago" name="metodo" class="form-control">
+                <option value="" selected disabled>Método de pago</option>
+                <option>Transferencia</option>
+                <option>Rapipago</option>
+                <option>MercadoPago</option>
+                <option>Paypal</option>
+                <option>Visa</option>
+              </select> </div>
             </div>
-
-            <div>
-              <button class="btn btn-outline-danger buttonForm" type="submit">
-                Subscribirme
-              </button>
-
-              <button class="btn btn-outline-danger buttonForm" type="reset">
-                Reestablecer
-              </button>
+            <div class="row justify-content-around text-left">
+            <div class="col-sm-7 flex-column d-flex form-check checkbox">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label for="flexCheckDefault">
+                Acepto los términos y condiciones de privacidad
+              </label>
             </div>
-          </fieldset>
+            <div class="row justify-content-around text-left">
+            <div class="col-sm-5 flex-column d-flex form-check checkbox">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Acepto recibir el newsletter
+              </label>
+            </div>
+              <div class="row justify-content-around text-left">        
+                <div class="col-sm-4 flex-column d-flex"> <button type="submit" class="btn btn-outline-danger">Suscribirme</button> </div>
+                <div class="col-sm-4 flex-column d-flex"> <button type="reset" class="btn btn-outline-danger">Reestablecer</button> </div>
+            </div>
         </form>
-      </div>
+      </div>  
     </section>
 
     <!-- footer -->

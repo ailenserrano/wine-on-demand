@@ -295,94 +295,23 @@ div .col-sm-6 .card-body.button button {
           justify-content: center;
 }
 
-.subscripcion, .contacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.suscripcion, .contacto {
   -ms-flex-line-pack: center;
       align-content: center;
   text-align: center;
+  margin: 0px 200px 50px 200px;
 }
 
-.subscripcion .form, .contacto .form {
-  border-radius: 10px;
+.suscripcion .form-card, .contacto .form-card {
   font-family: "Raleway", sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 50px;
   text-align: center;
 }
 
-.subscripcion .form .form__content, .contacto .form .form__content {
-  border-radius: 20px;
-  border: solid black 1px;
-  background-color: rgba(0, 0, 0, 0.2);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 50px;
-  padding: 0px 20px 0px 20px;
+.suscripcion .form-card div, .contacto .form-card div {
+  margin-top: 10px;
 }
 
-.subscripcion .form .form__content .form__content__name, .contacto .form .form__content .form__content__name {
-  display: inline-block;
-  text-align: center;
-  font-size: 16pt;
-  font-weight: 600;
-  margin-bottom: 20px;
-  padding: 8px;
-}
-
-.subscripcion .form .form__content div, .contacto .form .form__content div {
-  margin-bottom: 30px;
-  font-size: 13pt;
-  font-weight: 600;
-}
-
-.subscripcion .form .form__content div .form__content__label, .contacto .form .form__content div .form__content__label {
-  margin-right: 10px;
-}
-
-.subscripcion .form .form__content div .form__content__input, .contacto .form .form__content div .form__content__input {
-  border-radius: 12px;
-  width: 250px;
-  height: 30px;
-}
-
-.subscripcion .form .form__content div .form__content__input:focus, .contacto .form .form__content div .form__content__input:focus {
-  color: cornflowerblue;
-}
-
-.subscripcion .form .form__content div .form__content__text, .contacto .form .form__content div .form__content__text {
-  border-radius: 12px;
-  width: 300px;
-}
-
-.subscripcion .form .form__content div .form__content__select, .contacto .form .form__content div .form__content__select {
-  border-radius: 12px;
-  width: 150px;
-  height: 25px;
-}
-
-.subscripcion .form .form__content div .checkbox, .contacto .form .form__content div .checkbox {
+.suscripcion .form-card .checkbox, .contacto .form-card .checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -392,7 +321,7 @@ div .col-sm-6 .card-body.button button {
           flex-direction: column;
 }
 
-.subscripcion .form .form__content div .checkbox div, .contacto .form .form__content div .checkbox div {
+.suscripcion .form-card .checkbox div, .contacto .form-card .checkbox div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -405,13 +334,15 @@ div .col-sm-6 .card-body.button button {
           justify-content: center;
 }
 
-.subscripcion .form .form__content div .checkbox div .checkbox__input, .contacto .form .form__content div .checkbox div .checkbox__input {
-  width: 20px;
-  height: 20px;
+.suscripcion .form-card .detalles, .suscripcion .form-card .consulta, .contacto .form-card .detalles, .contacto .form-card .consulta {
+  height: 100px;
 }
 
-.subscripcion .form .form__content div .checkbox div .checkbox__label, .contacto .form .form__content div .checkbox div .checkbox__label {
-  margin-left: 10px;
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  margin-top: 20px;
 }
 
 .contacto {
